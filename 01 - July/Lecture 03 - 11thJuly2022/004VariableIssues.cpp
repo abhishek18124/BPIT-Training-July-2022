@@ -20,9 +20,9 @@ int main() {
 
 	// cout << x << endl; // garbage
 
-	int x = 10;
+	// int x = 10;
 
-	cout << x << endl;
+	// cout << x << endl;
 
 	return 0;
 }
