@@ -1,0 +1,26 @@
+#include<iostream>
+
+using namespace std;
+
+int main() {
+
+	int A[] = {10, 20, 30, 20, 10};
+	int n = sizeof(A) / sizeof(int);
+
+	int t = 100;
+
+	int i;
+
+	for(i=0; i<n; i++) {
+		if(A[i] == t) {
+			cout << t << " found at index " << i << endl;
+			break;
+		}
+	}
+
+	if(i == n) {
+		cout << t <<  " not found" << endl;
+	}
+
+	return 0;
+}
