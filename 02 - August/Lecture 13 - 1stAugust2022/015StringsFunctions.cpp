@@ -12,10 +12,10 @@ int main() {
 	// cout << str.length() << endl;
 	// cout << str.size() << endl;
 
-	// // appending / concatnating str2 to str1
+	// appending / concatnating str2 to str1
 
-	// string str1 = "new";
-	// string str2 = "delhi";
+	string str1 = "new";
+	string str2 = "delhi";
 	
 	// // 1. using append()
 	
@@ -30,10 +30,10 @@ int main() {
 	// // comparing two strings
 
 	// string str3 = "abcde";
-	// string str4 = "abc";
+	// string str4 = "abcf";
 
-	// // 1. using compare
-	// cout << str3.compare(str4) << endl;
+	// // // 1. using compare
+	// // cout << str3.compare(str4) << endl;
 
 	// // 2. using relational operators
 	// if(str3 > str4) {
@@ -51,7 +51,7 @@ int main() {
 	// cout << str5.find("hello") << endl;
 	// cout << string::npos << endl;
 
-	// string key = "hello";
+	// string key = "issi";
 	// if(str5.find(key) != string::npos) {
 	// 	cout << key << " is present" << endl;
 	// } else {
@@ -79,14 +79,14 @@ int main() {
 	// string str(a);
 	// cout << str << endl;
 
-	// string st(10, 'a');
+	// string st(1, 'a');
 	// cout << st << endl;
 
 	// // reversing a string using reverse()
 
 	// string str9 = "coding blocks";
 
-	// // reverse(str9.begin(), str9.end()); // [start, end)
+	// reverse(str9.begin(), str9.end()); // [start, end)
 	
 	// cout << str9 << endl;
 
