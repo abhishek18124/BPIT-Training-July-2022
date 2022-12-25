@@ -9,7 +9,7 @@ Snake and Ladders Game
 #include<list>
 #include<unordered_set>
 #include<queue>
-
+#include<cstring>
 using namespace std;
 
 template <typename T>
@@ -107,9 +107,10 @@ int minDiceThrows(int n,
 
 	graph<int> g;
 
-	for(int u=1; u<n && weightMap[u] != 0; u++) {
+	for(int u=1; u<n ; u++) {
 		// 'u' is a cell on which you can roll the die 
 		// and it doesn't have a ladderStart or snakeHead
+		if(weightMap[u] != 0)continue;
 		for(int d=1; d<=6; d++) {
 			int v = u+d;
 			if(v <= n) {
